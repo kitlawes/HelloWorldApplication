@@ -38,8 +38,7 @@ public class HelloWorld {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String getHtml() {
-        //TODO return proper representation object
-        throw new UnsupportedOperationException();
+        return "<html lang=\"en\"><body><h1>Hello, World!!</body></h1></html>";
     }
 
     /**
